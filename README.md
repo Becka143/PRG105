@@ -1,2 +1,2 @@
-# PRG105
+# Web105
 Programming logic homework
