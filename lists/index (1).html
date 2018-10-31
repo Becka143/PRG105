@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Favorites</title>
+    
+    <style>
+        body {
+            background-color: #490909;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #572020;
+        }
+
+        dt {
+            font-weight: bold;
+            color: rgb(110, 128, 125);
+            line-height: 2;
+        }
+
+        
+        ul li {
+            list-style-type: upper-alpha;
+        }
+
+        ul  li  ul li {
+            list-style-type: lower-alpha;
+        }
+
+        .container {
+            min-height: 100px;
+            max-width: 960px;
+            background-color: #dfb3b3;;
+            border-radius: 5%;
+            border: 6px solid #72f5e5;
+            margin: 15px auto;
+            padding: 5px 10px 10px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #00796B;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <h2>Favorite Musicians and Albums</h2>
+    <ul>
+
+        <li>The Lumineers</li>
+        <li>Mumford and Sons</li>
+            <ul>
+                <li>Ho Hey</li>
+                <li>The Cave</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="container">
+    <h2>Actors and Movies</h2>
+    <ol type="A">
+
+        <li>Bradley Cooper</li>
+        <li>Keenu Reeves
+            <ol type="i">
+                <li>Birds</li>
+                <li>Vertigo</li>
+            </ol>
+        </li>
+    </ol>
+
+</div>
+<div class="container">
+    <h2>Web Development Hints</h2>
+    <dl>
+        <dt>CSS (Cascading Style Sheets) allows things like the color of text, the background, the size, shape and position of all the different parts of a page to be set.</dt>
+        <dd>HTML stands for HyperText Markup Language, and is the language of the web.</dd>
+        <dt> JavaScript is a scripting language that allows designers to create interactions on a web page.</dt>
+        <dd>ARIA is an acronym for Accessible Rich Internet Application, and refers to the idea that web apps are used by a range of people, with differing needs for assistive technology and layout.</dd>
+    </dl>
+
+</div>
+</body>
+
+</html>
