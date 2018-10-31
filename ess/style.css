@@ -1,0 +1,38 @@
+p{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px} 
+
+.container {max-width: 960px;
+  background: url(plaid.png) no-repeat;
+  background-size: cover;
+  border: 3px solid #68388E;
+  border-radius: 5px;
+  padding: 0;
+  margin: 5px auto; }
+header {
+  background-image: repeating-linear-gradient(red , black); 
+  background-size: auto;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto; }
+  body {
+    background: url(bunyan.jpeg) no-repeat;
+    background-size: cover;
+  }
+  h2{
+    color: aliceblue;
+  }
+  a {padding: 10px;
+  border: 2px black;
+background-color: rgb(175, 37, 37);
+border-radius: 10%;
+color: aliceblue;
+}
+
+a:hover{
+  color: black;
+  background-color: white;
+}
